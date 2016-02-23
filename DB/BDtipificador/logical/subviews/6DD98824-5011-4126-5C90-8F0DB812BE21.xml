@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="6DD98824-5011-4126-5C90-8F0DB812BE21">
+<createdBy>gpallares</createdBy>
+<modifiedBy>gpallares</modifiedBy>
+<createdTime>2016-02-22 19:10:28 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4187B165-B91A-F190-059C-B1A49575B257" otype="Entity" vid="B7A2DF0C-1CB1-3CD7-ABC2-456A104513FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="47" y="49" width="170" height="151"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EB66C2D3-BC7A-6F46-4752-BFE734400BFC" otype="Entity" vid="0BBC45AF-EB41-9353-CBF3-FA252CE7871C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="543" y="72" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="671E6DB1-51A6-B83F-7900-5156F81CAEC3" otype="Relation" vid_source="B7A2DF0C-1CB1-3CD7-ABC2-456A104513FC" vid_target="0BBC45AF-EB41-9353-CBF3-FA252CE7871C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="217" y="147"/>
+<point x="415" y="147"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E58E297A-CE91-2B14-E082-6A17CA7FF02A" otype="Relation" vid_source="0BBC45AF-EB41-9353-CBF3-FA252CE7871C" vid_target="0BBC45AF-EB41-9353-CBF3-FA252CE7871C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="713" y="127"/>
+<point x="763" y="127"/>
+<point x="763" y="232"/>
+<point x="628" y="232"/>
+<point x="628" y="182"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

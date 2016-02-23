@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="671E6DB1-51A6-B83F-7900-5156F81CAEC3">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 01:42:52 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="2B95700E-6733-E1E6-7171-FD339FCCDDB1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4187B165-B91A-F190-059C-B1A49575B257</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB66C2D3-BC7A-6F46-4752-BFE734400BFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E36C3548-B310-9EF4-64BB-B2BC14D443AD" containerWithKeyObject="3114D79E-0053-78C4-97EB-5EE3EFEE314D" localFKIndex="A5BA665F-38B4-62B3-0D81-4F04427590A0" name="Tipidicacion_Tipidicacion_FK">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>E58E297A-CE91-2B14-E082-6A17CA7FF02A</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3114D79E-0053-78C4-97EB-5EE3EFEE314D</referredTableID>
+<keyObject>08DF2358-A4AB-F3AE-414B-CB3A125A8BE2</keyObject>
+<referredKeyID>08DF2358-A4AB-F3AE-414B-CB3A125A8BE2</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

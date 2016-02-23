@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tipidicacion Tipidicacion FK" directorySegmentName="seg_0" id="E58E297A-CE91-2B14-E082-6A17CA7FF02A">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 01:59:35 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<targetPk>6BDAE656-97B0-956F-59A5-4B57A65046EA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB66C2D3-BC7A-6F46-4752-BFE734400BFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB66C2D3-BC7A-6F46-4752-BFE734400BFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

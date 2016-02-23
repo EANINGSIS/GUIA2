@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65BB893A-737D-DF8E-E44F-0639AB52A90E" name="Clientes">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>4187B165-B91A-F190-059C-B1A49575B257</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cliente" id="60DC6A68-D90F-4FB1-7751-E761B23033B0">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>BC02BB03-3EB4-6EAF-0B2F-1FE20D2B0F38</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="D8235B8C-53F5-F923-6FB5-A2A96476BD74">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>A2DF7653-5E90-8129-7F29-C8A5D0E2F24F</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="3B846C7C-41C0-33C3-F75E-1F58EB9839D1">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>2CF8546A-A715-A8ED-62B6-67DA0A6E5AF6</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="CD5EE07F-BB21-00F3-DE7A-C7AB616F9A72">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>1B3517FD-10B6-0397-0291-A71E274D844C</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono2" id="8FF89137-EE3F-7D2D-4525-929B7E1EF051">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>C2756283-FF82-B43C-8A45-DB59DD1D9506</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="984A043D-D64B-990E-5DFF-8A4231096C21">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>991267EF-99AD-28DE-27C1-5A7EE42954C0</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="577E574B-9F15-54A9-C420-9150DEE7D249">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>5D006B93-E8A8-8D66-06A0-CF6493304E24</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="FE5EC5D7-4A95-701E-35BF-9E4D843EDA4F">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>EADBA218-E0F3-BA4B-6F2E-561171C2AAFE</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero" id="6F5A1CC9-EE39-E4B0-FE6D-191FBDDE98E0">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>C7F8CD68-8BF5-BF92-6A7F-1C9E5DB2B065</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>33FB602D-F73F-3B42-6C6D-96BA34729B07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDD1168C-A8C6-606E-8D04-2CDB6BE32623" name="Clientes_PK">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>530D038A-AEFE-C84F-AE4C-E8BE2A6F3DDF</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60DC6A68-D90F-4FB1-7751-E761B23033B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

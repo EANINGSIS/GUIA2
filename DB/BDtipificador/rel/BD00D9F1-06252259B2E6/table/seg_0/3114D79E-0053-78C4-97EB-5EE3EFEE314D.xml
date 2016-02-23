@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3114D79E-0053-78C4-97EB-5EE3EFEE314D" name="Tipidicacion">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>EB66C2D3-BC7A-6F46-4752-BFE734400BFC</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_usuario" id="6636A97E-1722-A7B6-4D6F-CF249EEB5786">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>C0B1C06E-3C14-6C2A-981C-503744274ACE</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipificacion" id="41D27BF0-FB10-63A9-5488-71583D86A408">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>6138498E-D1DC-0531-8ECE-ED60FD55B64A</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Razones" id="2FD26683-AD72-15F6-58B5-1004EB9003D4">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>4C45C897-10E5-C10E-AF84-3D2113FF27B3</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CB2EF2B5-C250-BFF4-7792-49C9B5FB12BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipidicacion_ID_usuario" id="9658A92F-6D34-2B90-73C1-7180338F5FAB">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>9BADF168-289A-5A57-CB44-9257D4E67F1B</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E36C3548-B310-9EF4-64BB-B2BC14D443AD" referredColumn="6636A97E-1722-A7B6-4D6F-CF249EEB5786"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08DF2358-A4AB-F3AE-414B-CB3A125A8BE2" name="Tipidicacion_PK">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>6BDAE656-97B0-956F-59A5-4B57A65046EA</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6636A97E-1722-A7B6-4D6F-CF249EEB5786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5BA665F-38B4-62B3-0D81-4F04427590A0" name="Tipidicacion_Tipidicacion_FK">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>E58E297A-CE91-2B14-E082-6A17CA7FF02A</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9658A92F-6D34-2B90-73C1-7180338F5FAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

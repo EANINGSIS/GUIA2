@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="582F274D-5470-E993-D966-A1202D364162">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:09:37 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

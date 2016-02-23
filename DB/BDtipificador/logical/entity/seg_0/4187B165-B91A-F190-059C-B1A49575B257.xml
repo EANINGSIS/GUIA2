@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4187B165-B91A-F190-059C-B1A49575B257" name="Clientes">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:22:01 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID cliente" id="BC02BB03-3EB4-6EAF-0B2F-1FE20D2B0F38">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:45:38 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A2DF7653-5E90-8129-7F29-C8A5D0E2F24F">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:57:52 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="2CF8546A-A715-A8ED-62B6-67DA0A6E5AF6">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:58:19 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="1B3517FD-10B6-0397-0291-A71E274D844C">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:58:32 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono2" id="C2756283-FF82-B43C-8A45-DB59DD1D9506">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 01:29:25 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="991267EF-99AD-28DE-27C1-5A7EE42954C0">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:59:03 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="5D006B93-E8A8-8D66-06A0-CF6493304E24">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:59:37 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="EADBA218-E0F3-BA4B-6F2E-561171C2AAFE">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 20:00:17 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="C7F8CD68-8BF5-BF92-6A7F-1C9E5DB2B065">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 20:32:26 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>33FB602D-F73F-3B42-6C6D-96BA34729B07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="530D038A-AEFE-C84F-AE4C-E8BE2A6F3DDF" name="Clientes PK">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:48:36 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC02BB03-3EB4-6EAF-0B2F-1FE20D2B0F38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

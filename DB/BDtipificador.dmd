@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BDtipificador" id="7B873771-559B-F17D-3880-C3ECA3FF6427" version="3.5">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:09:37 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B873771-559B-F17D-3880-C3ECA3FF6427</designId>
+</OSDM_Design>

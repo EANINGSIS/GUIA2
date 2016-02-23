@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="811CCD6B-5C32-E9F2-41F0-E31D6D32F97D" mainViewID="6DD98824-5011-4126-5C90-8F0DB812BE21">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:09:37 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

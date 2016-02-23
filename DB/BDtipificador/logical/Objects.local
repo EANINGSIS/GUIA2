@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="4187B165-B91A-F190-059C-B1A49575B257" name="Clientes" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="811CCD6B-5C32-E9F2-41F0-E31D6D32F97D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EB66C2D3-BC7A-6F46-4752-BFE734400BFC" name="Tipidicacion" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="811CCD6B-5C32-E9F2-41F0-E31D6D32F97D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="671E6DB1-51A6-B83F-7900-5156F81CAEC3" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="811CCD6B-5C32-E9F2-41F0-E31D6D32F97D" propertySourceId="4187B165-B91A-F190-059C-B1A49575B257" propertyTargetId="EB66C2D3-BC7A-6F46-4752-BFE734400BFC"/>
+   <object objectType="Relation" objectID="E58E297A-CE91-2B14-E082-6A17CA7FF02A" name="Tipidicacion Tipidicacion FK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="811CCD6B-5C32-E9F2-41F0-E31D6D32F97D" propertySourceId="EB66C2D3-BC7A-6F46-4752-BFE734400BFC" propertyTargetId="EB66C2D3-BC7A-6F46-4752-BFE734400BFC"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

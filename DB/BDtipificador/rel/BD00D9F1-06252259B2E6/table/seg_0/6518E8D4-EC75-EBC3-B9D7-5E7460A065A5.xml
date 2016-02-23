@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6518E8D4-EC75-EBC3-B9D7-5E7460A065A5" name="Relation_1">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_ID_cliente" id="DA419104-0DD1-D792-D6A7-8793F8447FD2">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="963BF777-CDBE-9E1A-AFBA-AB1117280075" referredColumn="60DC6A68-D90F-4FB1-7751-E761B23033B0"/>
+</associations>
+</Column>
+<Column name="Tipidicacion_ID_usuario" id="ED258214-753C-2CD9-0F9C-4A31986B766B">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5873A5F7-4DDD-CF02-C52E-768F6A855241" referredColumn="6636A97E-1722-A7B6-4D6F-CF249EEB5786"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E9A5964-1F52-5017-F069-F517F1CEFA25" name="Relation_1_PK">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA419104-0DD1-D792-D6A7-8793F8447FD2"/>
+<colUsage columnID="ED258214-753C-2CD9-0F9C-4A31986B766B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="844149DC-B098-BF24-C511-8074D02B2F86" name="FK_ASS_1">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>671E6DB1-51A6-B83F-7900-5156F81CAEC3</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA419104-0DD1-D792-D6A7-8793F8447FD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6891AEB1-344A-A99D-C793-EE64C43C791D" name="FK_ASS_2">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 02:06:04 UTC</createdTime>
+<generatorID>671E6DB1-51A6-B83F-7900-5156F81CAEC3</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED258214-753C-2CD9-0F9C-4A31986B766B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

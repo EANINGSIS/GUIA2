@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="CBB92C80-3DAA-CB0C-645A-9D6614882F31">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:09:37 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

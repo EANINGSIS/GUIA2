@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB66C2D3-BC7A-6F46-4752-BFE734400BFC" name="Tipidicacion">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 19:22:39 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID usuario" id="C0B1C06E-3C14-6C2A-981C-503744274ACE">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 20:02:15 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipificacion" id="6138498E-D1DC-0531-8ECE-ED60FD55B64A">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 20:02:36 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razones" id="4C45C897-10E5-C10E-AF84-3D2113FF27B3">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 01:37:30 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CB2EF2B5-C250-BFF4-7792-49C9B5FB12BE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipidicacion ID usuario" id="9BADF168-289A-5A57-CB44-9257D4E67F1B">
+<createdBy>Yoe</createdBy>
+<createdTime>2016-02-23 01:59:35 UTC</createdTime>
+<generatorID>E58E297A-CE91-2B14-E082-6A17CA7FF02A</generatorID>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C0B1C06E-3C14-6C2A-981C-503744274ACE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BDAE656-97B0-956F-59A5-4B57A65046EA" name="Tipidicacion PK">
+<createdBy>gpallares</createdBy>
+<createdTime>2016-02-22 20:02:32 UTC</createdTime>
+<ownerDesignName>BDtipificador</ownerDesignName>
+<engineerTo>
+<item key="BD00D9F1-03F0-0B84-3C2E-06252259B2E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0B1C06E-3C14-6C2A-981C-503744274ACE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
