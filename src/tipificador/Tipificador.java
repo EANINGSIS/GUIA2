@@ -18,4 +18,4 @@ public class Tipificador {
         // TODO code application logic here
     }
     
-}
+
