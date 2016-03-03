@@ -1,3 +1,7 @@
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -58,7 +62,7 @@ public class Formulario extends javax.swing.JFrame {
 
         jTextField2.setText("Apellido");
 
-        jTextField3.setText("ID del cliente");
+        jTextField3.setText("ID de cliente");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -77,6 +81,11 @@ public class Formulario extends javax.swing.JFrame {
         jTextField6.setText("Ciudad");
 
         button1.setLabel("Guardar");
+        button1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button1ActionPerformed(evt);
+            }
+        });
 
         button2.setLabel("Buscar");
 
@@ -85,6 +94,11 @@ public class Formulario extends javax.swing.JFrame {
         jLabel2.setText("Comentarios");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nivel 1 tipificacion", "Prospecto", "Cliente", "Asesor", "Gerente" }));
+        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox2ActionPerformed(evt);
+            }
+        });
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nivel 2 tipi", "blah", "blah2", "blah3" }));
 
@@ -188,6 +202,39 @@ public class Formulario extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
 
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
+        // TODO add your handling code here:
+        Connection miConexion=(Connection) ConexionDB.ConexionDB.GetConnection();
+        try
+        {
+            Statement statement=(Statement) miConexion.createStatement();
+          
+            String cedula=jTextField1.getText();
+            String nombre=jTextField2.getText();
+            String apellido=jTextField3.getText();
+            String email=jTextField4.getText();
+            String direccion=jTextField5.getText();
+            String ciudad=jTextField5.getText();
+            
+            
+          
+            statement.execute("insert into Tipificacion([id cliente],nombre, apellido, email, direccion, ciudad, telefono, nivel1, nivel2, nivel3, comentarios) values('"+cedula+"','"+nombre+"','"+apellido+"','"+email+"','"+direccion+"','"+ciudad+"')");
+          
+            JOptionPane.showMessageDialog(this, "Datos ingresados correctamente");
+          
+            statement.close();
+            miConexion.close();
+        }
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(this, "Error "+ex.getMessage());
+        }
+    }//GEN-LAST:event_button1ActionPerformed
+
+    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox2ActionPerformed
+      
     /**
      * @param args the command line arguments
      */

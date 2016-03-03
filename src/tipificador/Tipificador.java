@@ -5,6 +5,9 @@
  */
 package tipificador;
 
+import java.sql.Connection;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author gpallares
@@ -16,7 +19,14 @@ public class Tipificador {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Connection miConexion;
+        miConexion=ConexionDB.ConexionDB.GetConnection();
+      
+        if(miConexion!=null)
+        {
+            JOptionPane.showMessageDialog(null, "Conexión Realizada Correctamente");
+        }
+        
     }
     
-
 }
